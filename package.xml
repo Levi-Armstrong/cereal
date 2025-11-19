@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>cereal</name>
+  <version>1.3.2</version>
+  <description>A C++11 library for serialization</description>
+  <maintainer email="levi.armstrong@gmail.com">Levi Armstrong</maintainer>
+  <license>BSD-3-Clause</license>
+  <author>Cereal Serialization</author>
+
+  <!-- Following recommendations of REP 136 -->
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
